@@ -201,7 +201,7 @@ cn_en:
 # 自定义短语：custom_phrase.txt
 custom_phrase:
   dictionary: ""
-  user_dict: custom_phrase  # 可以修改这里，改成自己的 txt 文件
+  user_dict: dicts/custom/user_phrase  # 可以修改这里，改成自己的 txt 文件
   db_class: stabledb        # 只读数据库，无法动态调频；设为 tabledb 可以动态调频
   enable_completion: false  # 补全提示
   enable_sentence: false    # 禁止造句
