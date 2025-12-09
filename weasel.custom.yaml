@@ -5,10 +5,12 @@ patch:
   "app_options/cmd.exe/ascii_mode": true
   "app_options/pwsh.exe/ascii_mode": true
   "app_options/powershell.exe/ascii_mode": true
+  # 引入主题配色文件
+  __include: themes/MacOS.yaml:/
   # 颜色风格方案
-  "style/color_scheme": lost_temple
+  "style/color_scheme": macos_light
   # 深色模式下颜色风格方案
-  "style/color_scheme_dark": dark_temple
+  "style/color_scheme_dark": macos_dark
   # 全局字体大小
   "style/font_point": 14
   "style/label_font_point": 10
